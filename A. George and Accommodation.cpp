@@ -5,20 +5,13 @@ using namespace std;
 
 void solve() {
     int n; cin >> n;
-    int curr_pass = 0;
-    int max_cap = 0;
-
+    int count = 0;
     for(int i = 0; i < n; i++){
-        int ai, bi;
-        cin >> ai >> bi;
-        curr_pass -= ai;
-        curr_pass += bi;
-
-        max_cap = max(max_cap, curr_pass);
+        int p1, q1; cin >> p1 >> q1;
+        if(q1 - p1 >= 2) count++;
     }
 
-    cout << max_cap << endl;
-    
+    cout << count << endl;
 }
 
 int main() {
