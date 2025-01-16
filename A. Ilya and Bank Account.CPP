@@ -3,6 +3,7 @@
 // * 10 = 1230    
 // + n % 10 = 1235 adds last number 
 
+
 #include <bits/stdc++.h>
 using namespace std;
 
