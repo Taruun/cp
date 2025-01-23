@@ -16,7 +16,21 @@
 			"",
 			"    solve();",
 			"    return 0;",
-			"}"
+			"}",
+			"", 
+			"//Challenge:", 
+            "", 
+            "//",
+			"", 
+			"//Observation:", 
+            "", 
+            "//",
+			"", 
+			"//Analysis:", 
+            "", 
+            "//",
+			 
+
 		],
 		"description": "starter template"
 	}
