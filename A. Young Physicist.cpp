@@ -34,7 +34,7 @@ int main() {
 
 //Observation:
 
-// 
+// Thinking of sum of natural numbers formula but straightforward
 
 //Analysis:
 
